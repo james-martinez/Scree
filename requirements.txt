@@ -1,0 +1,15 @@
+# Open WebUI Autonomous Coder Pipeline Requirements
+# Install in Open WebUI's Python environment
+
+# Proxmox API client
+proxmoxer>=2.0.0
+
+# HTTP client (for async operations)
+aiohttp>=3.9.0
+requests>=2.31.0
+
+# OpenAI client (for agent LLM calls)
+openai>=1.0.0
+
+# Utilities
+python-dateutil>=2.8.0
