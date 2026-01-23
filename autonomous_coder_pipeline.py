@@ -283,9 +283,9 @@ class ProxmoxManager:
         return proxmox.nodes(self.node).qemu(vmid).status.current.get()
 
 
-class Pipeline:
+class Pipe:
     """
-    Open WebUI Pipeline for Autonomous Coding Tasks.
+    Open WebUI Pipe for Autonomous Coding Tasks.
     
     Detects coding task requests, provisions VMs, and streams progress.
     """
@@ -738,4 +738,4 @@ Add a REST API to https://github.com/user/repo branch: develop
 
 
 # Export for Open WebUI
-pipeline = Pipeline()
+pipe = Pipe()
